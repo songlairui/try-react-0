@@ -1,0 +1,38 @@
+input,
+textarea {
+  padding: .3em;
+  padding-left: .5em;
+  border-radius: 3px;
+  margin: .5em;
+  border: thin solid rgb(217, 217, 217);
+  outline: 0;
+  transition: all .3s;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #49a9ee;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #49a9ee;
+  box-shadow: 0 0 0 2px rgba(16, 142, 233, .2);
+}
+
+button {
+  color: white;
+  border: thin solid transparent;
+  background: #108ee9;
+  border-color: #108ee9;
+  border-radius: 4px;
+  padding: 0 15px;
+  line-height: 1.8em;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(16, 142, 233, .2);
+}

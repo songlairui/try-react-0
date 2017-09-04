@@ -1,0 +1,71 @@
+.works {
+  position: relative
+}
+
+.works>h1 {
+  overflow: hidden;
+}
+
+.works>h1>span.addNew {
+  float: right;
+  border: thin solid silver;
+  text-decoration: none;
+  background: #eee;
+  border-radius: 40%;
+  padding: .2em .5em;
+  cursor: pointer
+}
+
+.works>ul {
+  display: flex;
+  flex-flow: column;
+}
+
+.works>ul>li {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.works>ul>li:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+
+.works>ul>li>div {
+  flex: 1;
+  padding: 2em 1em;
+}
+
+.works>ul>li>.thumb {
+  flex: 0 0 45%;
+  min-width: 160px;
+  min-height: 200px;
+}
+
+.works img {
+  max-width: 100%;
+  border-radius: 4px;
+  border: medium solid white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.works ul.nav {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between
+}
+
+.works ul.nav .btn {
+  flex: 0 0 auto;
+  padding: .4em .8em;
+  cursor: pointer;
+}
+
+.works ul.nav .btn {
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.works ul.nav .btn:hover {
+  box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+}
